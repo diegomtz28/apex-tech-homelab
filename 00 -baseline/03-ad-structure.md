@@ -2,33 +2,33 @@
 
 ## OU Layout (as-built)
 
-ApexTech
-├── USERS
-│   ├── Contractors
-│   ├── Executives
-│   ├── Finance
-│   ├── HR
-│   ├── IT
-│   └── Sales
-├── WORKSTATIONS
-│   ├── FINANCE
-│   ├── HR
-│   ├── IT
-│   ├── SALES
-│   └── GENERAL
-├── SERVERS
-├── SERVICE_ACCOUNTS
-└── GROUPS
-    ├── Global
-    └── DomainLocal
+- apextech.local
+    - USERS
+        - Contractor
+        - Executives
+        - Finance
+        - HR
+        - IT
+        -  Sales
+- WORKSTATIONS
+  - FINANCE
+  - HR
+  - IT
+  - SALES
+  - GENERAL
+- SERVERS
+- SERVICE_ACCOUNTS
+-  GROUPS
+    - Global
+    - DomainLocal
 
 ## OU Purpose Rules (no guessing)
 For each OU: what belongs here, what should never be here, and why.
 
-### OU: Corp\Users\Standard
+### OU: Contains: Human user accounts only
 - Contains: Normal user accounts
-- Excludes: Admin and service accounts
-- Why: Apply least-privilege user policies without affecting admins/services
+- Excludes: Computer objects, service accounts
+- Why: Allows user-focused GPOs without impacting machines or services
 
 ### OU: Corp\Workstations\HR
 - Contains: HR workstations
