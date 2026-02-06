@@ -2,20 +2,25 @@
 
 ## OU Layout (as-built)
 
-- apextech.local
-  - Corp
-    - Users
-      - Standard
-      - Admins
-      - Service Accounts
-    - Workstations
-      - HR
-      - IT
-      - Sales
-      - Operations
-    - Servers
-      - Domain Controllers
-      - Member Servers
+ApexTech
+├── USERS
+│   ├── Contractors
+│   ├── Executives
+│   ├── Finance
+│   ├── HR
+│   ├── IT
+│   └── Sales
+├── WORKSTATIONS
+│   ├── FINANCE
+│   ├── HR
+│   ├── IT
+│   ├── SALES
+│   └── GENERAL
+├── SERVERS
+├── SERVICE_ACCOUNTS
+└── GROUPS
+    ├── Global
+    └── DomainLocal
 
 ## OU Purpose Rules (no guessing)
 For each OU: what belongs here, what should never be here, and why.
