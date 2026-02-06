@@ -25,7 +25,7 @@
 ## OU Purpose Rules (no guessing)
 For each OU: what belongs here, what should never be here, and why.
 
-### OU: Contains: Human user accounts only
+### OU: USERS: Human user accounts only
 - Contains: Normal user accounts
 - Excludes: Computer objects, service accounts
 - Why: Allows user-focused GPOs without impacting machines or services
