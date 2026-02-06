@@ -10,17 +10,17 @@
         - HR
         - IT
         -  Sales
-- WORKSTATIONS
-  - FINANCE
-  - HR
-  - IT
-  - SALES
-  - GENERAL
-- SERVERS
-- SERVICE_ACCOUNTS
--  GROUPS
-    - Global
-    - DomainLocal
+    - WORKSTATIONS
+        - FINANCE
+        - HR
+        - IT
+        - SALES
+        - GENERAL
+        - SERVERS
+        - SERVICE_ACCOUNTS
+    - GROUPS
+        -  Global
+        -  DomainLocal
 
 ## OU Purpose Rules (no guessing)
 For each OU: what belongs here, what should never be here, and why.
